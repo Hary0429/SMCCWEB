@@ -3,15 +3,17 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  align-items: center;
 }
 
 body {
   font-family: 'Arial', sans-serif;
-  background: linear-gradient(to bottom right, #A8E063, #56AB2F);
+  background: linear-gradient(to bottom right, #A8E063, #123196);
   color: #333;
   line-height: 1.6;
   padding: 0;
   margin: 0;
+  align-items: center;
 }
 
 /* Navigation Bar */
@@ -42,7 +44,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  background: #56AB2F;
+  background: #0896b9;
 }
 
 /* Header Styles */
@@ -70,10 +72,18 @@ footer {
   color: white;
   margin-top: 2rem;
 }
-
+.paper-style {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 600px;
+  border: 1px solid #ddd;
+}
 /* Button Styling */
 button {
-  background: #56AB2F;
+  background: #032a64;
   color: white;
   padding: 0.7rem 1.5rem;
   border: none;
@@ -83,7 +93,7 @@ button {
 }
 
 button:hover {
-  background: #A8E063;
+  background: #05857e;
 }
 
 /* Media Queries */
@@ -96,4 +106,28 @@ button:hover {
   nav ul li {
     margin: 10px 0;
   }
+}
+.h1 {
+  align-items: center;
+  font-size: 40px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: black;
+}
+.p {
+  align-content: center;
+  color: black;
+}
+.align {
+  align-content: center;
+}
+.pHOME {
+  align-content: center;
+  color: rgb(12, 1, 1);
+  font-size: 30px;
+}
+.h1home {
+  align-content: center;
+  font-size: 50px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: rgb(3, 0, 0);
 }
